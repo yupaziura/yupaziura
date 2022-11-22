@@ -373,6 +373,22 @@ const projectWeb = {
     textGit: 'Go to Github repo',
     arr: [
         {
+            title:'Hvoja',
+            descr: `Website for online store Hvoja. I created a design, layout and styles. I used React.js and Bootstrap. As a database I created Airtable tables and used REST API ta get data from them. Also there is a form for users. The Emailjs was used to get users data.`,
+            pathImg: require('../img/projects-web/hvoja.png'),
+            pathWeb: 'https://hvoja.store',
+            pathGit: 'https://github.com/yupaziura/store-woodo',
+            link: true,
+        },
+        {
+            title:'Messenger',
+            descr: `Messenger. Created on React.js. Custom functional components, hooks usage, REST API usage.`,
+            pathImg: require('../img/projects-web/messenger.png'),
+            pathWeb: 'https://harmonious-queijadas-eeffe1.netlify.app/',
+            pathGit: 'https://github.com/yupaziura/test-messenger',
+            link: true,
+        },
+        {
             title:'Wordpress',
             descr: 'Courses for Wordpress. Creating proper project folder structure. Creating HTML layout and adding styles.',
             pathImg: require('../img/projects-web/wordpress.png'),
@@ -429,6 +445,22 @@ const projectWebUA = {
     textWeb: 'Перейти до вебсайту',
     textGit: 'Перейти до репозиторія',
     arr: [
+        {
+            title:'Hvoja',
+            descr: `Вебсайт для онлайн магазину Hvoja. Створення дизайну, розмітки та стилів. Використання React.js та Bootstrap. Airtable у якості бази даних та REST API щоб отримати дані. Форма для покупців та Emailjs для формування електронних листів.`,
+            pathImg: require('../img/projects-web/hvoja.png'),
+            pathWeb: 'https://hvojs.store',
+            pathGit: 'https://github.com/yupaziura/store-woodo',
+            link: true,
+        },
+        {
+            title:'Месенджер',
+            descr: `Створений на React.js. Кастомні функціональні компоненти, використання хуків, використання REST API.`,
+            pathImg: require('../img/projects-web/messenger.png'),
+            pathWeb: 'https://harmonious-queijadas-eeffe1.netlify.app',
+            pathGit: 'https://github.com/yupaziura/test-messenger',
+            link: true,
+        },
         {
             title:'Wordpress',
             descr: 'Вебсайт курсів Wordpress. Створення правильної структури папок. Створення HTML розмітки та додавання стилів.',

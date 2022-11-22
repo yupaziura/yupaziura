@@ -26,7 +26,11 @@ const ProjectWeb = (props) => {
                             <a href={item.pathGit}>{obj.textGit}</a>
                         </div>
                         <div className={`web__link web__link${activeTheme}`}>
-                            <Link to={{pathname: item.pathWeb}} target="_blank">{obj.textWeb}</Link>
+                            {
+                                item.link? <a href={item.pathWeb}>{obj.textWeb}</a>
+                                :
+                                <Link to={{pathname: item.pathWeb}} target="_blank">{obj.textWeb}</Link>
+                            }
                         </div>
                     </div>
                     <div className='web__imgBlock'>
